@@ -5,12 +5,25 @@ VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PrimeirosPassosHtml", "PrimeirosPassosHtml", "{2C07D3A8-D3B6-44A5-AB24-CBDF6E8887A4}"
 	ProjectSection(SolutionItems) = preProject
+		ConteudoDasAulas.html = ConteudoDasAulas.html
+		Index.html = Index.html
 		PageEstudos.html = PageEstudos.html
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Js", "Js", "{51863BE0-EFA0-41D9-A065-F2A115B36F99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Css", "Css", "{70768D4C-A688-4E27-88AB-5D8C4763B44B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Img", "Img", "{4F2499FC-A50D-44FB-9AC5-95AD1BF8CAF5}"
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{51863BE0-EFA0-41D9-A065-F2A115B36F99} = {2C07D3A8-D3B6-44A5-AB24-CBDF6E8887A4}
+		{70768D4C-A688-4E27-88AB-5D8C4763B44B} = {2C07D3A8-D3B6-44A5-AB24-CBDF6E8887A4}
+		{4F2499FC-A50D-44FB-9AC5-95AD1BF8CAF5} = {2C07D3A8-D3B6-44A5-AB24-CBDF6E8887A4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {501F26C6-7BCA-4AB5-A1FA-A9B53E27C137}
