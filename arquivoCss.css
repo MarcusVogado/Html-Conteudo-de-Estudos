@@ -1,0 +1,30 @@
+﻿#divPai {
+    display: flex;
+    width: 500px;
+    align-content: center;
+    height: 500px;
+    background-color: pink;
+    margin: 5px;
+    flex-direction: row;
+    margin: 10px;
+}
+#div1 {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+
+#div2 {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+#div3 {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}

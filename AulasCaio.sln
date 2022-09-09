@@ -11,8 +11,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PrimeirosPassosHtml", "Prim
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Js", "Js", "{51863BE0-EFA0-41D9-A065-F2A115B36F99}"
+	ProjectSection(SolutionItems) = preProject
+		arquivoJs.js = arquivoJs.js
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Css", "Css", "{70768D4C-A688-4E27-88AB-5D8C4763B44B}"
+	ProjectSection(SolutionItems) = preProject
+		arquivoCss.css = arquivoCss.css
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Img", "Img", "{4F2499FC-A50D-44FB-9AC5-95AD1BF8CAF5}"
 EndProject

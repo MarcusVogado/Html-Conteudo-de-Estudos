@@ -4,61 +4,32 @@
 <head>
     <meta charset="utf-8" />
     <title> INDEX</title>
-
-    <style>
-        #divPai {
-            display: flex;
-            width: 500px;
-            align-content:center;           
-            height: 500px;
-            background-color: pink;
-            margin: 5px;
-            flex-direction:row;
-            margin: 10px;
-        }
-
-        #div1 {
-            margin: 10px;
-            width: 100px;
-            height: 100px;
-            background-color: orange;
-        }
-
-        #div2 {
-            margin: 10px;
-            width: 100px;
-            height: 100px;
-            background-color: blue;
-        }
-
-        #div3 {
-            margin: 10px;
-            width: 100px;
-            height: 100px;
-            background-color: black;
-        }
-    </style>
+   
+    <link rel="stylesheet" href="Css/arquivoCss.css">
+    
+    <script type="text/javascript" src="Js/arquivoJs.js"></script>
+       
 </head>
 <body>
     <div>
         <h1>Primeira Pagina</h1>
         <label>Nome:</label>
         <input type="text" />
-
-
-
-
     </div>
     <br />
     <br />
     <br />
 
+    <input type="text" id="txtPrinmeiro"/>
+    <input type="button" id="buttonClicar" value="Clicar" onclick="myFunction(document.getElementById('txtPrimeiro').value)" />
+   
     <div id="divPai">
         <div id="div1"></div>
         <div id="div2"></div>
         <div id="div3"></div>
     </div>
-
+    
+    
 
 </body>
 </html>
